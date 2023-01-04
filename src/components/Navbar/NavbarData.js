@@ -1,18 +1,18 @@
 export const NavbarData  = [
     {
-        title: 'About-me',
-        path: '/about-me'
+        title: 'Home',
+        path: 'home'
     },
     {
         title: 'Skills',
-        path: '/skills'
+        path: 'skills'
     },
     {
-        title: 'Sample Projects',
-        path: '/myprojects'
+        title: 'Projects',
+        path: 'myprojects'
     },
     {
         title: 'Contacts',
-        path: '/contacts'
+        path: 'contacts'
     },
 ]
