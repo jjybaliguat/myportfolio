@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const ProjectsContainer = styled.div`
     height: 600px;
     padding: 1rem 3rem;
-    background: #212426;
+    background: #2f2f2f;
 `
 export const MyProjects = styled.div`
     margin-top: 1rem;
