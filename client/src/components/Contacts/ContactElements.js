@@ -4,11 +4,14 @@ export const ContactsContainer = styled.div`
     height: 700px;
     padding: 1rem 3rem;
     background: #000;
+
+    @media screen and (max-width: 880px) {
+      padding: 1rem 1rem;
+    }
 `
 export const MainContact = styled.div`
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
     margin-top: 2rem;
     padding: 1rem;
@@ -23,6 +26,7 @@ export const FormContainer = styled.div`
     background: #1f1f1f;
     border-radius: 10px;
     box-shadow: 5px 10px 20px 3px rgba(2552,255,255,0.3);
+    margin-bottom: 3rem;
 `
 export const MyForm = styled.form`
    display: flex;
@@ -87,5 +91,27 @@ export const Error = styled.p`
    /* position: absolute; */
 `
 export const ContactDetails = styled.div`
-   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   outline: 1px solid #2f2f2f;
+   width: 500px;
+   height: 355px; 
+   border-radius: 10px;
+   padding: 10px;
+`
+export const Details = styled.a`
+   color: rgba(255,255,255,0.8);
+   text-decoration: none;
+   font-size: 18px;
+   cursor: pointer;
+   margin-bottom: 2rem;
+
+   &:hover{
+      color: #fff;
+   }
+`
+export const Detail = styled.span`
+   margin-left: 1rem;
 `
