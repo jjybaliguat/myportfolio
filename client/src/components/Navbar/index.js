@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { NavbarData } from './NavbarData'
 import { Bars, BtnCv, MenuContainer, MenuIcon, MobileLink, MobileMenu, NavBar, NavLink, NavLogo, NavMenu } from './NavElements'
+import MyResume from '../../assets/img/myresume.jpg'
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false)
@@ -49,7 +50,7 @@ const Navbar = () => {
                 })} 
             </NavMenu>
 
-            <BtnCv onClick={() => {alert("clck")}}>Download CV <i className="fa-solid fa-download"></i></BtnCv>
+            <BtnCv href={MyResume} download>Download CV <i className="fa-solid fa-download"></i></BtnCv>
             <MenuIcon onClick={toggleMenuIcon}>
                     <Bars className={clicked? 'fas fa-times' : 'fa-solid fa-bars'}> </Bars>
             </MenuIcon>

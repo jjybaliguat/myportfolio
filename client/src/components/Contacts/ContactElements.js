@@ -68,10 +68,11 @@ export const TextArea = styled.textarea`
 `
 export const BtnSubmit = styled.button`
    border: none;
-   outline: 1px solid #039be5;
+   outline: ${({disable}) => (disable? '1px solid #6f6f6f': '1px solid #039be5')};
    padding: 10px 15px;
    border-radius: 5px;
-   color: #fff;
+   color: ${({disable}) => (disable? '#6f6f6f': '#fff')};
+   cursor: ${({disable}) => (disable? 'not-allowed': 'pointer')};;
    /* background: #5f5f5f; */
    background: transparent;
    position: absolute;
@@ -81,7 +82,7 @@ export const BtnSubmit = styled.button`
    box-shadow: 3px 5px 5px 2px rgba(0,0,0,0.5);
 
    &:hover{
-    background: #039be5;
+    background: ${({disable}) => (disable? 'none': '#039be5')};
     color: #000;
    }
 `
@@ -114,4 +115,8 @@ export const Details = styled.a`
 `
 export const Detail = styled.span`
    margin-left: 1rem;
+`
+export const AlertMessage = styled.h3`
+   color: #0f9f0f;
+   padding: 10px;
 `

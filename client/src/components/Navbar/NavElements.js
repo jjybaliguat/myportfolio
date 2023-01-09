@@ -60,7 +60,8 @@ export const NavLink = styled(LinkS)`
         font-size: 12px;
     }
 `
-export const BtnCv = styled.button`
+export const BtnCv = styled.a`
+    text-decoration: none;
     padding: 10px;
     outline: none;
     border: 2px solid #039be5;
