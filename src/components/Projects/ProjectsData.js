@@ -4,6 +4,7 @@ import Project3 from '../../assets/img/movieapp.png'
 import Project4 from '../../assets/img/cam2net.png'
 import Project5 from '../../assets/img/cam2netv2.png'
 import Project6 from '../../assets/img/expensetracker.png'
+import Project7 from '../../assets/img/rdnakssitepic.png'
 export const ProjectsData = [
     {
         title: 'Jquery Form Validation',
@@ -38,5 +39,11 @@ export const ProjectsData = [
         img: Project6,
         category: 'Laravel',
         link: 'https://cam2netict.net/expense-tracker'
+    },
+    {
+        title: 'ISP Website - (RDNAKSNDS)',
+        img: Project7,
+        category: 'Nextjs',
+        link: 'https://rdnaksnds.com'
     },
 ]

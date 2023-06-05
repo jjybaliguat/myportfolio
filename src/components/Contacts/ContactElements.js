@@ -120,3 +120,7 @@ export const AlertMessage = styled.h3`
    color: #0f9f0f;
    padding: 10px;
 `
+export const ErrorMessage = styled.h3`
+   color: red;
+   padding: 10px;
+`
