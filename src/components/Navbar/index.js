@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { NavbarData } from './NavbarData'
 import { Bars, BtnCv, MenuContainer, MenuIcon, MobileLink, MobileMenu, NavBar, NavLink, NavLogo, NavMenu } from './NavElements'
-import MyResume from '../../assets/img/myresume.jpg'
+import MyResume from '../../assets/img/baliguat-resume.pdf'
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false)
